@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Desarrollo Web </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>JMdev</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Aprende Desarrollo Web y Tecnología</h2>
+                <p class="hero-description">
+                    Clases tanto de Programacion, diseño y desarrollo web para todos
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Materia</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Videos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Gratuito</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="cursos" class="courses">
+        <div class="container">
+            <h2 class="section-title">Cursos Disponibles</h2>
+            
+            <!-- Course Categories -->
+            <div class="course-categories">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="informatica">Desarrollo Web</button>
+            </div>
+
+            <!-- Informática Courses -->
+            <div class="course-section" data-category="informatica">
+                <h3 class="course-section-title">
+                    <span class="section-icon"></span>
+                    Desarrollo Web
+                </h3>
+                
+                <div class="subjects-grid">
+                    <!-- Desarrollo Web -->
+                    <div class="subject-card">
+                        <div class="subject-header">
+                            <h4>Desarrollo Web</h4>
+                            <span class="subject-badge">Frontend & Backend</span>
+                        </div>
+                        <div class="videos-grid">
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/BucaJmCDY8M" 
+                                        title="Landing Page Responsive para Restaurante"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Landing Page Responsive - Restaurante</h5>
+                                    <p>Creación completa de una landing page responsive para restaurante usando HTML, CSS y JavaScript</p>
+                                    <div class="video-meta">
+                                        <span class="duration">45:20</span>
+                                        <span class="level">Intermedio</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/mMT2glC32w0" 
+                                        title="Proyecto Web Avanzado"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Proyecto Web Avanzado</h5>
+                                    <p>Desarrollo de proyecto web con técnicas avanzadas de frontend</p>
+                                    <div class="video-meta">
+                                        <span class="duration">38:15</span>
+                                        <span class="level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/mMT2glC32w0" 
+                                        title="Proyecto Web Avanzado"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Proyecto Web Avanzado</h5>
+                                    <p>Desarrollo de proyecto web con técnicas avanzadas de frontend</p>
+                                    <div class="video-meta">
+                                        <span class="duration">38:15</span>
+                                        <span class="level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <!-- Informática Courses -->
+            <div class="course-section" data-category="informatica">
+                <h3 class="course-section-title">
+                    <span class="section-icon"></span>
+                    Desarrollo Web
+                </h3>
+                
+                <div class="subjects-grid">
+                    <!-- Desarrollo Web -->
+                    <div class="subject-card">
+                        <div class="subject-header">
+                            <h4>Desarrollo Web</h4>
+                            <span class="subject-badge">Frontend & Backend</span>
+                        </div>
+                        <div class="videos-grid">
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/BucaJmCDY8M" 
+                                        title="Landing Page Responsive para Restaurante"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Landing Page Responsive - Restaurante</h5>
+                                    <p>Creación completa de una landing page responsive para restaurante usando HTML, CSS y JavaScript</p>
+                                    <div class="video-meta">
+                                        <span class="duration">45:20</span>
+                                        <span class="level">Intermedio</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/mMT2glC32w0" 
+                                        title="Proyecto Web Avanzado"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Proyecto Web Avanzado</h5>
+                                    <p>Desarrollo de proyecto web con técnicas avanzadas de frontend</p>
+                                    <div class="video-meta">
+                                        <span class="duration">38:15</span>
+                                        <span class="level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="video-card">
+                                <div class="video-wrapper">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/mMT2glC32w0" 
+                                        title="Proyecto Web Avanzado"
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="video-info">
+                                    <h5>Proyecto Web Avanzado</h5>
+                                    <p>Desarrollo de proyecto web con técnicas avanzadas de frontend</p>
+                                    <div class="video-meta">
+                                        <span class="duration">38:15</span>
+                                        <span class="level">Avanzado</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="recursos" class="resources">
+        <div class="container">
+            <h2 class="section-title">Recursos Adicionales</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">📚</div>
+                    <h3>Documentación</h3>
+                    <p>Enlaces a documentación oficial y guías de referencia</p>
+                    <a href="#" class="resource-link">Ver recursos</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">💾</div>
+                    <h3>Código Fuente</h3>
+                    <p>Repositorios con ejemplos y proyectos de clase</p>
+                    <a href="#" class="resource-link">GitHub</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🛠️</div>
+                    <h3>Herramientas</h3>
+                    <p>Software y herramientas recomendadas para desarrollo</p>
+                    <a href="#" class="resource-link">Ver lista</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JMdev</h3>
+                    <p>Formando la próxima generación de desarrolladores y diseñadores digitales.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: jorgelmeraz@gmail.com</p>
+                    <p>Horario de consultas: Lunes a Viernes 2:00 PM - 4:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#">YouTube</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JMDev. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
